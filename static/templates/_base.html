@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
 
     <title>Site de castro</title>
 </head>
@@ -13,72 +13,29 @@
 <body class="m-0 p-2 d-flex flex-column min-vh-100">
     <header class="container p-3 bg-primary text-white rounded d-flex align-items-center justify-content-between">
         <h1>
-            <span class="text-warning">&#9982;</span> Escolha seu Produto
+            <span class="text-warning">&#9982;</span> Cadastre seu Produto
         </h1>
     </header>
     <hr>
-    <nav class="container mt-2 navbar navbar-expand-sm bg-dark navbar-dark rounded px-0">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="mynavbar">
-                <ul class="navbar-nav me-auto mt-3 mt-sm-0">
-
-                    <li class="nav-item"></li><a href="{{url_for('index')}}">Início</a>
-                    <li class="nav-item"></li><a href="{{url_for('new')}}">Novo</a>
-                    <li class="nav-item"></li><a href="{{url_for('about')}}">Sobre</a>
-                </ul>
-                <form class="d-flex mt-3 mt-sm-0" method="get">
-                    <div class="input-group">
-                        <input class="form-control" type="text" name="q" placeholder="Procurar..." required>
-                        <button class="btn btn-primary bg-light border-0 p-2" type="submit">🔎</button>
-                    </div>
-                </form>
-            </div>
-        </div>
+    <nav>
+        <a href="{{ url_for('index') }}">Início</a>
+        <a href="{{ url_for('new_thing') }}">Novo</a>
+        <a href="{{ url_for('about') }}">Sobre</a>
     </nav>
     <hr>
 
     <main>
-       
-       <main> <h1>Nossos Produtos</h1>
-<section>
-    <div>
-        <h2>Notebook</h2>
-        <p>Notebook rápido e moderno.</p>
-        <p>R$ 3.999,90</p>
-        <button>Comprar</button>
-    </div>
 
-    <div>
-        <h2>Celular</h2>
-        <p>Celular com ótima câmera e desempenho.</p>
-        <p>R$ 1.999,90</p>
-        <button>Comprar</button>
-    </div>
-
-    <div>
-        <h2>Fone de Ouvido</h2>
-        <p>Fone confortável com excelente qualidade de som.</p>
-        <p>R$ 199,90</p>
-        <button>Comprar</button>
-    </div>
-
-    <div>
-        <h2>Smartwatch</h2>
-        <p>Relógio inteligente para o seu dia a dia.</p>
-        <p>R$ 499,90</p>
-        <button>Comprar</button>
-    </div>
-</section>
-
-</main>
-       
+        <h2>Cadastro de Treco</h2>
+        <p>Aqui teremos o conteúdo dinâmico da página de cadastro.</p>
     </main>
     <hr>
 
-    <footer>&copy; 2026 Cadastro de Produtos</footer>
+
+
+
+    <footer class="text-center">&copy;2026 Cadastro de Produtos</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
