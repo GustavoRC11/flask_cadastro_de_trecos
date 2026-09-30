@@ -48,5 +48,5 @@ INSERT INTO thing
 ( "Traquitana Junina", "Uma coisa que se acha por aí no período das festas juninas.", "Lá mesmo", "https://picsum.photos/400/300?random=17" ),
 ( "Peremboca quebrada", "Pedaço de alguma coisa, não se sabe de quê, mas é de origem terráquea.", "Encaixotado", "https://picsum.photos/400/300?random=18" ),
 ( "Lançador de sucata", "No melhor estilo 'arma infernal', mas não funciona mais. Se é que já funcionou.", "Bem perto", "https://picsum.photos/400/300?random=19" ),
-( "Pescador de linha", "Usava quando era pequeno e não entendia pra que servia. Ainda não entendo.", "Por ai", "https://picsum.photos/400/300?random=20" );
+( "Pescador de linha", "Usava quando era pequeno e não entendia pra que servia. Ainda não entendo.", "Por ai", "https://picsum.photos/400/300?random=20" ),
 ( "Pescador de linha", "Usava quando era pequeno e não entendia pra que servia. Ainda não entendo.", "Por ai", "https://picsum.photos/400/300?random=20" );

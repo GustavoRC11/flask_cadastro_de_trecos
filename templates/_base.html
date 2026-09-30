@@ -12,15 +12,17 @@ Template base
     {% if page_css %}
     <link rel="stylesheet" href="{{ url_for('static', filename='css/' + page_css) }}">
     {% endif %}
-    <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.png') }}" type="image/x-icon">
     <title>Cadastro de Trecos</title>
+     <link rel="icon"  href="{{ url_for('static', filename='img/logo01.jpg') }}">
 </head>
 
 <body>
 
     <div id="wrap">
         <header>
-            <h1>Cadastro de Trecos</h1>
+            <h1>
+                <img src="{{ url_for('static', filename='img/logo01.jpg') }}" alt="Cadastro de trecos">
+                Cadastro de Trecos</h1>
         </header>
 
         <nav>
